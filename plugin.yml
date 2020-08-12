@@ -1,0 +1,56 @@
+    main: bor.minecraft.samsara.ChestStocker
+    name: ChestStocker
+    version: 1.0
+    api-version: 1.13
+    author: Borox
+    description: Powering Samsara day and night!
+    depend: [WorldEdit, WorldGuard]
+    commands:
+           
+      samsara:
+        description: An example command
+        usage: /samsara
+        permission: ChestStocker.default
+        permission-message: The first manifestation of Samsara says "Hello world."
+        
+      freefalling:
+        description: An example command
+        usage: :)
+        permission: ChestStocker.default
+        permission-message: The first manifestation of Samsara says "Hello world."
+
+      cs:
+        description: Restock the chests!
+        usage: Type /cs help for a list of commands!
+        permission: ChestStocker.admin
+        permission-message: The first manifestation of Samsara says "Hello world."
+
+      cheststocker:
+        description: Restock the chests!
+        usage: Type /cs help for a list of commands!
+        permission: ChestStocker.admin
+        permission-message: The first manifestation of Samsara says "Hello world."
+        
+      testSave:
+        description: Structure save!
+        usage: WHy you do this
+        permission: ChestStocker.admin
+        permission-message: The first manifestation of Samsara says "Hello world."
+        
+      testLoad:
+        description: Structure load!
+        usage: WHy you do this thing
+        permission: ChestStocker.admin
+        permission-message: The first manifestation of Samsara says "Hello world."   
+        
+      createStructure:
+        description: Structure create!
+        usage: This is a good command.
+        permission: ChestStocker.admin
+        permission-message: The first manifestation of Samsara says "Hello world."  
+             
+      loadStructure:
+        description: Structure load!
+        usage: This is a good command.
+        permission: ChestStocker.admin
+        permission-message: The first manifestation of Samsara says "Hello world."          
